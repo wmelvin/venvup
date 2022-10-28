@@ -12,7 +12,7 @@ To make the `venvup` command available, it can be copied to the user's private `
 cp venvup.sh ~/bin/venvup
 ```
 
-If an argument was passed, it is used as a prefix in naming the prompt for the venv. Only the first argument is used. For example, if you run `venvup test` the prompt will be `(test-venv)` when the virtual environment is activated.
+If an argument is passed when running the script, it is used as a prefix in naming the prompt for the venv. Only the first argument is used. For example, if you run `venvup test` the prompt will be `(test-venv)` when the virtual environment is activated.
 
 ### Links
 
