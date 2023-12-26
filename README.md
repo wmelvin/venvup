@@ -6,12 +6,6 @@ The script was built to run on Linux and has only been used by the author on Ubu
 
 It assumes using `venv` to create a virtual environment with the name `venv`, not `.venv`.
 
-To make the `venvup` command available, it can be copied to the user's private `~/bin` directory (without the `.sh` suffix): 
-
-```bash
-cp venvup.sh ~/bin/venvup
-```
-
 If an argument is passed when running the script, it is used as a prefix in naming the prompt for the venv. Only the first argument is used. For example, if you run `venvup test` the prompt will be `(test-venv)` when the virtual environment is activated.
 
 ### Links
