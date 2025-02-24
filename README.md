@@ -1,5 +1,9 @@
 # venvup
 
+**UPDATE 2025-02-24:** I am archiving this repository because I am now using [uv](https://github.com/astral-sh/uv#readme) to manage virtual environments. *-Bill Melvin*
+
+---
+
 **venvup** is a bash script that creates a Python virtual environment (venv) in the current directory. It also installs requirements via *pip* if a `requirements.txt` and/or a `requirements-dev.txt` file is found.
 
 The script was built to run on Linux and has only been used by the author on Ubuntu (and *flavours* thereof).
